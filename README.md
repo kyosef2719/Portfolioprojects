@@ -18,3 +18,21 @@ I visualized the data to show the global impact of the pandemic.
 - Microsoft SQL Server Management Studio (SSMS)
 - Excel
 - Tableau Public
+
+
+---
+
+## Project 2: Data Cleaning in SQL (Nashville Housing)
+
+### Project Overview
+In this project, I took raw housing data and transformed it in **SQL Server** to make it usable for analysis. I cleaned the data, populated missing values, and reorganized columns.
+
+### Key Steps Taken
+- **Standardized Date Formats:** Converted columns to Date format.
+- **Populated Missing Data:** Used `SELF JOIN` to populate null Property Address data.
+- **Breaking out Addresses:** Used `SUBSTRING` and `PARSENAME` to split long address strings into (Address, City, State).
+- **Data Standardization:** Converted "Y" and "N" to "Yes" and "No" using `CASE` statements.
+- **Removed Duplicates:** Used CTEs and Windows Functions (`ROW_NUMBER`) to identify and delete duplicate rows.
+
+### 1. View The Code
+- **SQL File:** [Click Here to View SQL Script](https://github.com/kyosef2719/Portfolioprojects/blob/main/Nashville_Housing_Data_Cleaning.sql)

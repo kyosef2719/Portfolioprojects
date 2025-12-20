@@ -41,12 +41,6 @@ FROM PortfolioProject..CovidDeathsKYP
 WHERE location LIKE '%Ethiopia%'
 ORDER BY PercentPopulationInfected DESC
 
-SELECT location,date,population, total_cases , (total_cases/population)*100 as PercentPopulationInfected
-FROM PortfolioProject..CovidDeathsKYP
---Where location like '%States%'
-order by 1,2
-
-
 --Looking at Countries with Highest Infection Rate compared to Population
 
 SELECT location,population, MAX(total_cases) as HighestInfectionCount , MAX(total_cases *100.0/population) as PercentPopulationInfected

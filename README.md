@@ -22,7 +22,7 @@ I visualized the data to show the global impact of the pandemic.
 
 ---
 
-## Project 2: Data Cleaning in SQL (Nashville Housing)
+## Project 3: Data Cleaning in SQL (Nashville Housing)
 
 ### Project Overview
 In this project, I took raw housing data and transformed it in **SQL Server** to make it usable for analysis. I cleaned the data, populated missing values, and reorganized columns.
@@ -36,3 +36,10 @@ In this project, I took raw housing data and transformed it in **SQL Server** to
 
 ### 1. View The Code
 - **SQL File:** [Click Here to View SQL Script](https://github.com/kyosef2719/Portfolioprojects/blob/main/Nashville_Housing_Data_Cleaning.sql)
+
+  
+
+- ## Project 4: Movie Correlation Project (Python)
+In this project, I explore what factors have the highest correlation with the gross revenue of movies. I use libraries like Pandas, Seaborn, and Matplotlib to clean data and visualize the results.
+
+* **Key Finding:** I discovered that Budget and Votes have the highest correlation to Gross Earnings.

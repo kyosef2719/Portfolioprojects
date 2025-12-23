@@ -5,12 +5,12 @@ README.md
 ## Project Overview
 In this project, I used **SQL Server** to explore global COVID-19 data and **Tableau** to visualize the key insights. This project demonstrates my ability to clean data, perform complex SQL queries, and create interactive dashboards.
 
-### 1. SQL Data Exploration
+### Project 1: SQL Data Exploration
 - **Files:** [View SQL Scripts](https://github.com/kyosef2719/Portfolioprojects)
 - **Key Skills:** Joins, CTEs, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types.
 - **Analysis:** Analyzed Total Cases vs Total Deaths, likelihood of dying if you contract covid in your country, and global infection rates.
 
-### 2. Tableau Dashboard
+### Project 2: Tableau Dashboard
 I visualized the data to show the global impact of the pandemic.
 - **View Dashboard:** [Click Here to View on Tableau Public](https://public.tableau.com/app/profile/kidus.wanegnaw/viz/CovidDashboardPortfolio_17661354898540/Dashboard1)
 
@@ -39,7 +39,9 @@ In this project, I took raw housing data and transformed it in **SQL Server** to
 
   
 
-- ## Project 4: Movie Correlation Project (Python)
-In this project, I explore what factors have the highest correlation with the gross revenue of movies. I use libraries like Pandas, Seaborn, and Matplotlib to clean data and visualize the results.
+- ## Project 4: Movie Correlation Project (https://github.com/kyosef2719/Portfolioprojects/blob/main/Movie%20correlation%20project%20KY.ipynb)
+In this project, I used Python to find which variables have the highest correlation with movie revenue. 
+- **Tools used:** Python, Pandas, Seaborn, Matplotlib.
+- **Key Discovery:** Budget and Votes have the highest correlation to Gross Earnings.
 
-* **Key Finding:** I discovered that Budget and Votes have the highest correlation to Gross Earnings.
+👉 [**View the full project here**](https://github.com/kyosef2719/Portfolioprojects/blob/main/Movie%20correlation%20project%20KY.ipynb)
